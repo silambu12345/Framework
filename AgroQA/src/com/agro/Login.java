@@ -16,6 +16,7 @@ private static WebElement branchselection;
 
 public void login()
 {
+	//welcome message added
 	System.out.println("HI welcome");
 	System.setProperty("webdriver.gecko.driver", "F:\\geckodriver-v0.24.0-win32\\geckodriver.exe");
 	WebDriver driver = new FirefoxDriver();
